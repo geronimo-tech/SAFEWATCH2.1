@@ -1,0 +1,150 @@
+{
+  "collection": "responders",
+  "description": "Respondedores de emergencia iniciales para SAFEWATCH",
+  "data": [
+    {
+      "user_id": "PLACEHOLDER_RESPONDER_1",
+      "responder_type": "paramedic",
+      "badge_number": "PAR-2024-001",
+      "organization": "Cruz Roja Mexicana - Guadalajara",
+      "certifications": [
+        {
+          "name": "Técnico en Urgencias Médicas",
+          "issuer": "Secretaría de Salud Jalisco",
+          "issue_date": { "$date": "2022-01-15T00:00:00.000Z" },
+          "expiry_date": { "$date": "2027-01-15T00:00:00.000Z" },
+          "certificate_number": "TUM-JAL-2022-1234"
+        },
+        {
+          "name": "Soporte Vital Avanzado (ACLS)",
+          "issuer": "American Heart Association",
+          "issue_date": { "$date": "2023-06-01T00:00:00.000Z" },
+          "expiry_date": { "$date": "2025-06-01T00:00:00.000Z" },
+          "certificate_number": "ACLS-2023-5678"
+        }
+      ],
+      "is_on_duty": true,
+      "current_location": {
+        "type": "Point",
+        "coordinates": [-103.3679, 20.6847],
+        "last_updated": { "$date": "2024-03-20T10:00:00.000Z" }
+      },
+      "stats": {
+        "total_responses": 145,
+        "average_response_time_seconds": 480,
+        "rating": 4.8,
+        "total_ratings": 89
+      },
+      "created_at": { "$date": "2024-01-15T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-03-20T10:00:00.000Z" },
+      "last_active": { "$date": "2024-03-20T10:00:00.000Z" }
+    },
+    {
+      "user_id": "PLACEHOLDER_RESPONDER_2",
+      "responder_type": "police",
+      "badge_number": "POL-GDL-4521",
+      "organization": "Policía Municipal de Guadalajara",
+      "certifications": [
+        {
+          "name": "Certificación Policial Básica",
+          "issuer": "Academia de Policía de Jalisco",
+          "issue_date": { "$date": "2020-08-01T00:00:00.000Z" },
+          "expiry_date": { "$date": "2025-08-01T00:00:00.000Z" },
+          "certificate_number": "CPB-JAL-2020-4521"
+        },
+        {
+          "name": "Primeros Auxilios",
+          "issuer": "Cruz Roja Mexicana",
+          "issue_date": { "$date": "2023-03-15T00:00:00.000Z" },
+          "expiry_date": { "$date": "2025-03-15T00:00:00.000Z" },
+          "certificate_number": "PA-CRM-2023-9012"
+        }
+      ],
+      "is_on_duty": false,
+      "current_location": null,
+      "stats": {
+        "total_responses": 312,
+        "average_response_time_seconds": 360,
+        "rating": 4.6,
+        "total_ratings": 156
+      },
+      "created_at": { "$date": "2024-02-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-03-19T18:00:00.000Z" },
+      "last_active": { "$date": "2024-03-19T18:00:00.000Z" }
+    },
+    {
+      "user_id": "PLACEHOLDER_RESPONDER_3",
+      "responder_type": "firefighter",
+      "badge_number": "BOM-GDL-0089",
+      "organization": "Cuerpo de Bomberos de Guadalajara",
+      "certifications": [
+        {
+          "name": "Bombero Certificado Nivel II",
+          "issuer": "Protección Civil Jalisco",
+          "issue_date": { "$date": "2021-05-01T00:00:00.000Z" },
+          "expiry_date": { "$date": "2026-05-01T00:00:00.000Z" },
+          "certificate_number": "BC2-JAL-2021-0089"
+        },
+        {
+          "name": "Rescate en Estructuras Colapsadas",
+          "issuer": "CENAPRED",
+          "issue_date": { "$date": "2022-11-01T00:00:00.000Z" },
+          "expiry_date": { "$date": "2024-11-01T00:00:00.000Z" },
+          "certificate_number": "REC-2022-3456"
+        },
+        {
+          "name": "Manejo de Materiales Peligrosos",
+          "issuer": "SEMARNAT",
+          "issue_date": { "$date": "2023-02-01T00:00:00.000Z" },
+          "expiry_date": { "$date": "2025-02-01T00:00:00.000Z" },
+          "certificate_number": "MMP-2023-7890"
+        }
+      ],
+      "is_on_duty": true,
+      "current_location": {
+        "type": "Point",
+        "coordinates": [-103.3521, 20.6758],
+        "last_updated": { "$date": "2024-03-20T08:30:00.000Z" }
+      },
+      "stats": {
+        "total_responses": 203,
+        "average_response_time_seconds": 420,
+        "rating": 4.9,
+        "total_ratings": 112
+      },
+      "created_at": { "$date": "2024-01-20T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-03-20T08:30:00.000Z" },
+      "last_active": { "$date": "2024-03-20T08:30:00.000Z" }
+    },
+    {
+      "user_id": "PLACEHOLDER_RESPONDER_4",
+      "responder_type": "volunteer",
+      "badge_number": "VOL-SW-2024-001",
+      "organization": "SAFEWATCH Voluntarios",
+      "certifications": [
+        {
+          "name": "Primeros Auxilios Básicos",
+          "issuer": "Cruz Roja Mexicana",
+          "issue_date": { "$date": "2024-01-10T00:00:00.000Z" },
+          "expiry_date": { "$date": "2026-01-10T00:00:00.000Z" },
+          "certificate_number": "PAB-CRM-2024-0001"
+        }
+      ],
+      "is_on_duty": true,
+      "current_location": {
+        "type": "Point",
+        "coordinates": [-103.3461, 20.6721],
+        "last_updated": { "$date": "2024-03-20T09:15:00.000Z" }
+      },
+      "stats": {
+        "total_responses": 28,
+        "average_response_time_seconds": 600,
+        "rating": 4.5,
+        "total_ratings": 15
+      },
+      "created_at": { "$date": "2024-03-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-03-20T09:15:00.000Z" },
+      "last_active": { "$date": "2024-03-20T09:15:00.000Z" }
+    }
+  ]
+}

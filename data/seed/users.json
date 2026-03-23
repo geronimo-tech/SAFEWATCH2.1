@@ -1,0 +1,106 @@
+{
+  "collection": "users",
+  "description": "Usuarios iniciales del sistema SAFEWATCH",
+  "data": [
+    {
+      "email": "admin@safewatch.mx",
+      "password_hash": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/X4LZ1KxgXlW0/z7mW",
+      "full_name": "Administrador SAFEWATCH",
+      "phone": "+52 33 1234 5678",
+      "role": "admin",
+      "is_verified": true,
+      "is_active": true,
+      "preferences": {
+        "notifications_enabled": true,
+        "language": "es",
+        "theme": "dark",
+        "emergency_voice_enabled": false
+      },
+      "subscription": {
+        "plan": "premium",
+        "expires_at": null,
+        "features": ["unlimited_alerts", "priority_response", "family_tracking", "medical_history", "admin_access"]
+      },
+      "created_at": { "$date": "2024-01-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-01-01T00:00:00.000Z" },
+      "last_login": null,
+      "login_attempts": 0,
+      "locked_until": null
+    },
+    {
+      "email": "responder1@safewatch.mx",
+      "password_hash": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/X4LZ1KxgXlW0/z7mW",
+      "full_name": "Carlos Hernández López",
+      "phone": "+52 33 2345 6789",
+      "role": "responder",
+      "is_verified": true,
+      "is_active": true,
+      "preferences": {
+        "notifications_enabled": true,
+        "language": "es",
+        "theme": "dark",
+        "emergency_voice_enabled": true
+      },
+      "subscription": {
+        "plan": "premium",
+        "expires_at": null,
+        "features": ["responder_dashboard", "alert_management", "location_tracking"]
+      },
+      "created_at": { "$date": "2024-01-15T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-01-15T00:00:00.000Z" },
+      "last_login": null,
+      "login_attempts": 0,
+      "locked_until": null
+    },
+    {
+      "email": "usuario1@example.com",
+      "password_hash": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/X4LZ1KxgXlW0/z7mW",
+      "full_name": "María García Rodríguez",
+      "phone": "+52 33 3456 7890",
+      "role": "citizen",
+      "is_verified": true,
+      "is_active": true,
+      "preferences": {
+        "notifications_enabled": true,
+        "language": "es",
+        "theme": "system",
+        "emergency_voice_enabled": true
+      },
+      "subscription": {
+        "plan": "basic",
+        "expires_at": { "$date": "2025-12-31T23:59:59.000Z" },
+        "features": ["basic_alerts", "emergency_contacts", "medical_profile"]
+      },
+      "created_at": { "$date": "2024-02-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-02-01T00:00:00.000Z" },
+      "last_login": null,
+      "login_attempts": 0,
+      "locked_until": null
+    },
+    {
+      "email": "usuario2@example.com",
+      "password_hash": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/X4LZ1KxgXlW0/z7mW",
+      "full_name": "Juan Pérez Martínez",
+      "phone": "+52 33 4567 8901",
+      "role": "citizen",
+      "is_verified": true,
+      "is_active": true,
+      "preferences": {
+        "notifications_enabled": true,
+        "language": "es",
+        "theme": "light",
+        "emergency_voice_enabled": false
+      },
+      "subscription": {
+        "plan": "free",
+        "expires_at": null,
+        "features": ["basic_alerts"]
+      },
+      "created_at": { "$date": "2024-03-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-03-01T00:00:00.000Z" },
+      "last_login": null,
+      "login_attempts": 0,
+      "locked_until": null
+    }
+  ]
+}

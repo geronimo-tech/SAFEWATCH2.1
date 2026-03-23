@@ -1,0 +1,122 @@
+{
+  "collection": "medical_profiles",
+  "description": "Perfiles médicos de ejemplo para SAFEWATCH",
+  "data": [
+    {
+      "user_id": "PLACEHOLDER_USER_1",
+      "blood_type": "O+",
+      "date_of_birth": { "$date": "1985-05-15T00:00:00.000Z" },
+      "gender": "female",
+      "height_cm": 165,
+      "weight_kg": 62,
+      "medical_conditions": [
+        {
+          "name": "Diabetes Tipo 2",
+          "diagnosed_date": { "$date": "2018-03-20T00:00:00.000Z" },
+          "severity": "moderate",
+          "notes": "Controlada con medicamento oral. Revisar glucosa regularmente."
+        },
+        {
+          "name": "Hipertensión Arterial",
+          "diagnosed_date": { "$date": "2020-01-15T00:00:00.000Z" },
+          "severity": "mild",
+          "notes": "Bajo tratamiento con Losartán 50mg"
+        }
+      ],
+      "allergies": [
+        {
+          "allergen": "Penicilina",
+          "reaction_type": "Erupción cutánea, dificultad respiratoria",
+          "severity": "severe"
+        },
+        {
+          "allergen": "Mariscos",
+          "reaction_type": "Urticaria",
+          "severity": "moderate"
+        }
+      ],
+      "medications": [
+        {
+          "name": "Metformina",
+          "dosage": "850mg",
+          "frequency": "2 veces al día con alimentos",
+          "start_date": { "$date": "2018-04-01T00:00:00.000Z" },
+          "prescribing_doctor": "Dr. Roberto González"
+        },
+        {
+          "name": "Losartán",
+          "dosage": "50mg",
+          "frequency": "1 vez al día en la mañana",
+          "start_date": { "$date": "2020-02-01T00:00:00.000Z" },
+          "prescribing_doctor": "Dra. Ana Martínez"
+        }
+      ],
+      "emergency_medical_contact": {
+        "doctor_name": "Dr. Roberto González Sánchez",
+        "specialty": "Medicina Interna",
+        "phone": "+52 33 3612 4567",
+        "hospital": "Hospital Civil de Guadalajara"
+      },
+      "imss_number": "1234567890-1",
+      "emergency_notes": "Paciente diabética e hipertensa. Alérgica a Penicilina - NO ADMINISTRAR. En caso de hipoglucemia, administrar glucosa oral. Porta identificación médica en muñeca izquierda.",
+      "created_at": { "$date": "2024-02-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-02-01T00:00:00.000Z" },
+      "last_reviewed": { "$date": "2024-02-15T00:00:00.000Z" }
+    },
+    {
+      "user_id": "PLACEHOLDER_USER_2",
+      "blood_type": "A+",
+      "date_of_birth": { "$date": "1990-11-22T00:00:00.000Z" },
+      "gender": "male",
+      "height_cm": 178,
+      "weight_kg": 82,
+      "medical_conditions": [
+        {
+          "name": "Asma",
+          "diagnosed_date": { "$date": "2005-06-10T00:00:00.000Z" },
+          "severity": "moderate",
+          "notes": "Crisis asmáticas ocasionales con cambios de temperatura. Porta inhalador."
+        }
+      ],
+      "allergies": [
+        {
+          "allergen": "Polen",
+          "reaction_type": "Rinitis, estornudos, ojos llorosos",
+          "severity": "mild"
+        },
+        {
+          "allergen": "Ácaros del polvo",
+          "reaction_type": "Crisis asmática",
+          "severity": "moderate"
+        }
+      ],
+      "medications": [
+        {
+          "name": "Salbutamol (inhalador)",
+          "dosage": "100mcg",
+          "frequency": "Según necesidad, máximo 4 veces al día",
+          "start_date": { "$date": "2005-07-01T00:00:00.000Z" },
+          "prescribing_doctor": "Dr. Carlos Vega"
+        },
+        {
+          "name": "Montelukast",
+          "dosage": "10mg",
+          "frequency": "1 vez al día en la noche",
+          "start_date": { "$date": "2020-08-15T00:00:00.000Z" },
+          "prescribing_doctor": "Dr. Carlos Vega"
+        }
+      ],
+      "emergency_medical_contact": {
+        "doctor_name": "Dr. Carlos Vega López",
+        "specialty": "Neumología",
+        "phone": "+52 33 3615 8901",
+        "hospital": "Hospital General de Occidente"
+      },
+      "imss_number": "0987654321-2",
+      "emergency_notes": "Paciente asmático. Siempre porta inhalador de rescate (Salbutamol) en bolsillo derecho. En caso de crisis severa, administrar nebulización y trasladar a hospital.",
+      "created_at": { "$date": "2024-03-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-03-01T00:00:00.000Z" },
+      "last_reviewed": null
+    }
+  ]
+}

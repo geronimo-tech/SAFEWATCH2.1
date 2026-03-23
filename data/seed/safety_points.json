@@ -1,0 +1,222 @@
+{
+  "collection": "safety_points",
+  "description": "Puntos de seguridad iniciales en Guadalajara, Jalisco",
+  "data": [
+    {
+      "name": "Hospital Civil de Guadalajara Fray Antonio Alcalde",
+      "type": "hospital",
+      "location": {
+        "type": "Point",
+        "coordinates": [-103.3496, 20.6866],
+        "address": "Calle Hospital 278, El Retiro, 44280",
+        "neighborhood": "El Retiro",
+        "municipality": "Guadalajara"
+      },
+      "contact": {
+        "phone": "+52 33 3614 5501",
+        "emergency_phone": "+52 33 3614 5500",
+        "email": "contacto@hcg.gob.mx",
+        "website": "https://www.hcg.gob.mx"
+      },
+      "schedule": {
+        "is_24_hours": true,
+        "hours": []
+      },
+      "services": ["urgencias", "traumatología", "pediatría", "cardiología", "neurología", "cirugía general"],
+      "is_active": true,
+      "verified_by_admin": true,
+      "created_at": { "$date": "2024-01-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-01-01T00:00:00.000Z" }
+    },
+    {
+      "name": "Hospital General de Occidente",
+      "type": "hospital",
+      "location": {
+        "type": "Point",
+        "coordinates": [-103.4213, 20.6601],
+        "address": "Av. Zoquipan 1050, Zoquipan, 45170",
+        "neighborhood": "Zoquipan",
+        "municipality": "Zapopan"
+      },
+      "contact": {
+        "phone": "+52 33 3030 6300",
+        "emergency_phone": "+52 33 3030 6301",
+        "email": "info@hgo.gob.mx",
+        "website": null
+      },
+      "schedule": {
+        "is_24_hours": true,
+        "hours": []
+      },
+      "services": ["urgencias", "medicina interna", "ginecología", "pediatría", "traumatología"],
+      "is_active": true,
+      "verified_by_admin": true,
+      "created_at": { "$date": "2024-01-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-01-01T00:00:00.000Z" }
+    },
+    {
+      "name": "Comisaría de Policía - Zona Centro",
+      "type": "police_station",
+      "location": {
+        "type": "Point",
+        "coordinates": [-103.3438, 20.6736],
+        "address": "Calle Independencia 100, Centro Histórico, 44100",
+        "neighborhood": "Centro Histórico",
+        "municipality": "Guadalajara"
+      },
+      "contact": {
+        "phone": "+52 33 3668 0800",
+        "emergency_phone": "911",
+        "email": null,
+        "website": null
+      },
+      "schedule": {
+        "is_24_hours": true,
+        "hours": []
+      },
+      "services": ["denuncias", "patrullaje", "emergencias", "orientación ciudadana"],
+      "is_active": true,
+      "verified_by_admin": true,
+      "created_at": { "$date": "2024-01-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-01-01T00:00:00.000Z" }
+    },
+    {
+      "name": "Estación de Bomberos No. 1",
+      "type": "fire_station",
+      "location": {
+        "type": "Point",
+        "coordinates": [-103.3521, 20.6758],
+        "address": "Calle Morelos 800, Centro, 44100",
+        "neighborhood": "Centro",
+        "municipality": "Guadalajara"
+      },
+      "contact": {
+        "phone": "+52 33 3668 0831",
+        "emergency_phone": "911",
+        "email": null,
+        "website": null
+      },
+      "schedule": {
+        "is_24_hours": true,
+        "hours": []
+      },
+      "services": ["incendios", "rescate", "materiales peligrosos", "primeros auxilios"],
+      "is_active": true,
+      "verified_by_admin": true,
+      "created_at": { "$date": "2024-01-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-01-01T00:00:00.000Z" }
+    },
+    {
+      "name": "Cruz Roja Mexicana - Delegación Guadalajara",
+      "type": "hospital",
+      "location": {
+        "type": "Point",
+        "coordinates": [-103.3679, 20.6847],
+        "address": "Av. Federalismo Sur 645, Moderna, 44190",
+        "neighborhood": "Moderna",
+        "municipality": "Guadalajara"
+      },
+      "contact": {
+        "phone": "+52 33 3614 2707",
+        "emergency_phone": "+52 33 3614 2707",
+        "email": "guadalajara@cruzrojajal.org.mx",
+        "website": "https://www.cruzrojajal.org.mx"
+      },
+      "schedule": {
+        "is_24_hours": true,
+        "hours": []
+      },
+      "services": ["urgencias", "ambulancias", "primeros auxilios", "banco de sangre"],
+      "is_active": true,
+      "verified_by_admin": true,
+      "created_at": { "$date": "2024-01-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-01-01T00:00:00.000Z" }
+    },
+    {
+      "name": "Farmacia Guadalajara - Sucursal Centro",
+      "type": "pharmacy",
+      "location": {
+        "type": "Point",
+        "coordinates": [-103.3461, 20.6721],
+        "address": "Av. Juárez 500, Centro, 44100",
+        "neighborhood": "Centro",
+        "municipality": "Guadalajara"
+      },
+      "contact": {
+        "phone": "+52 33 3613 8000",
+        "emergency_phone": null,
+        "email": null,
+        "website": "https://www.farmaciasguadalajara.com"
+      },
+      "schedule": {
+        "is_24_hours": true,
+        "hours": []
+      },
+      "services": ["medicamentos", "consulta médica", "vacunación", "inyecciones"],
+      "is_active": true,
+      "verified_by_admin": true,
+      "created_at": { "$date": "2024-01-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-01-01T00:00:00.000Z" }
+    },
+    {
+      "name": "Albergue Temporal Municipal",
+      "type": "shelter",
+      "location": {
+        "type": "Point",
+        "coordinates": [-103.3398, 20.6812],
+        "address": "Calle Reforma 200, Centro, 44100",
+        "neighborhood": "Centro",
+        "municipality": "Guadalajara"
+      },
+      "contact": {
+        "phone": "+52 33 3030 5000",
+        "emergency_phone": "+52 33 3030 5001",
+        "email": "dif@guadalajara.gob.mx",
+        "website": null
+      },
+      "schedule": {
+        "is_24_hours": false,
+        "hours": [
+          { "day": "monday", "open": "08:00", "close": "22:00" },
+          { "day": "tuesday", "open": "08:00", "close": "22:00" },
+          { "day": "wednesday", "open": "08:00", "close": "22:00" },
+          { "day": "thursday", "open": "08:00", "close": "22:00" },
+          { "day": "friday", "open": "08:00", "close": "22:00" },
+          { "day": "saturday", "open": "08:00", "close": "20:00" },
+          { "day": "sunday", "open": "08:00", "close": "18:00" }
+        ]
+      },
+      "services": ["refugio temporal", "alimentación", "atención psicológica", "orientación social"],
+      "is_active": true,
+      "verified_by_admin": true,
+      "created_at": { "$date": "2024-01-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-01-01T00:00:00.000Z" }
+    },
+    {
+      "name": "Centro de Protección Civil Zapopan",
+      "type": "safe_zone",
+      "location": {
+        "type": "Point",
+        "coordinates": [-103.3992, 20.7214],
+        "address": "Av. Laureles 1000, Chapalita, 45040",
+        "neighborhood": "Chapalita",
+        "municipality": "Zapopan"
+      },
+      "contact": {
+        "phone": "+52 33 3818 2200",
+        "emergency_phone": "911",
+        "email": "proteccioncivil@zapopan.gob.mx",
+        "website": null
+      },
+      "schedule": {
+        "is_24_hours": true,
+        "hours": []
+      },
+      "services": ["coordinación de emergencias", "capacitación", "alerta temprana", "evaluación de riesgos"],
+      "is_active": true,
+      "verified_by_admin": true,
+      "created_at": { "$date": "2024-01-01T00:00:00.000Z" },
+      "updated_at": { "$date": "2024-01-01T00:00:00.000Z" }
+    }
+  ]
+}
