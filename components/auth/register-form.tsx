@@ -152,7 +152,7 @@ export function RegisterForm({ userType }: RegisterFormProps) {
               id="full_name"
               name="full_name"
               type="text"
-              placeholder="Juan Perez"
+              placeholder="Nombre Completo"
               required
               minLength={2}
               maxLength={100}
